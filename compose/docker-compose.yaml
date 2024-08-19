@@ -1,0 +1,6 @@
+services:
+  ssh:
+    image: olymahmudmugdho/ssh-container
+    container_name: ssh-container
+    ports:
+      - 2222:22
